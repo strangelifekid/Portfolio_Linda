@@ -1,0 +1,26 @@
+:root {
+    scroll-behavior: smooth;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+header-class {
+    background-color: aquamarine;
+}
+
+body {
+    background-color: black;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1,h3,p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
