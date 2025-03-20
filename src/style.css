@@ -31,10 +31,10 @@ header {
     margin: 0;
     width: 90%;
     margin-left: 10%;
-    height: 90px;
+    height: 70px;
     border-bottom-left-radius: 50px;
     padding-left: 30px;
-    padding-top: 20px;
+    padding-top: 15px;
     display: block;
     margin-bottom: 460px;
     z-index: 2;
@@ -42,19 +42,19 @@ header {
 }
 
 h1 {
-    font-size: 10em;
+    font-size: 12em;
 
 }
 
 h2 {
-    font-size: 7em;
+    font-size: 8em;
     color: white;
 }
 
-h1,h2 {
-        padding: 0;
-        width: fit-content;
-        margin-top: 200px;
+h1,
+h2 {
+    width: fit-content;
+    margin-top: 200px;
 }
 
 h3 {
@@ -64,13 +64,14 @@ h3 {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 section {
-    padding-top: 200px;
+    padding-top: 190px;
     height: 100vh;
 }
+
 /*nav {
     display: flex;
     align-items: end;
@@ -79,13 +80,15 @@ section {
 ul {
     list-style-type: none;
     margin: 0;
+    align-items: center;
 
 }
 
 li {
-    padding-left: 10px;
-    font-size: 2em;
-    font-weight:600;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.5em;
+    font-weight: 600;
     float: left;
     /* display: inline-block; */
 }
@@ -108,20 +111,23 @@ img {
     max-height: 100%;
 }
 
-h1, h2,
+h1,
+h2,
 h3,
 p,
 a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1, h2, 
+h1,
+h2,
 h3,
 p {
     color: white;
 }
 
-h3,p {
+h3,
+p {
     padding-left: 5px;
 }
 
@@ -131,28 +137,56 @@ p {
     font-size: 1.5em;
 }
 
-.projectLinks > a{
+.projectLinks {
+    display: inline;
+}
+
+.projectLinks>a {
     color: rgb(0, 0, 0);
     width: fit-content;
-    font-size:2em;
+    font-size: 2em;
 
 }
 
 
 .projectLinks div {
-    background: var(--color);
+    border: 3px solid white;
     height: fit-content;
     width: 80%;
     border-radius: 10px;
-    
+    padding-left: 5px;
+
 }
 
 .experience {
     border: 3px solid white;
     border-radius: 10px;
     width: 80%;
+    height: 20vh;
     margin-left: 5px;
-    padding: 10px 0px 10px 30px
+    padding: 20px 0px 20px 30px;
+    align-content: center;
+    padding: auto;
+}
+
+img {
+    height: 110px;
+}
+
+.fotos {
+    height: 400px;
+    padding: 20px;
+}
+
+.fotos:hover {
+    height: 410px;
+    transition: 0.5s;
+
+}
+
+.fotoContainer {
+    height: fit-content;
+    border: ;
 }
 
 .wholeText {
@@ -163,12 +197,12 @@ p {
 #test {
     /* max-width: 100%;
     height: auto; */
-        width: 100%;
-        aspect-ratio: 4/3;
-        object-fit: cover;
-        border-radius: 10px;
-        opacity: 50%;
-        height: 10vh;
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    border-radius: 10px;
+    opacity: 50%;
+    height: 10vh;
 }
 
 #test:hover {
@@ -179,7 +213,20 @@ p {
 
 .rahmen {
     height: fit-content;
-
 }
 
+#rightContact {
+    float: right;
+    padding-right: 40px;
+    align-items: center;
+    padding-bottom: 10px;
+}
 
+/*#contactButton {
+    border: 3px solid black;
+    float: right;
+    align-content: center;
+    margin-right: 50px;
+    border-radius: 15px;
+    align-self: center;
+}*/
