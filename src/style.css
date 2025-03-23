@@ -169,11 +169,10 @@ p {
 }*/
 
 #projects {
-    padding-left: 15px;
 
     img {
         height: 800px;
-        width: 50%;
+        width: 100%;
         aspect-ratio: 4/3;
         object-fit: cover;
         opacity: 60%;
@@ -185,6 +184,7 @@ p {
         width: 70%;
         height: 60vh;
         overflow-y: hidden;
+        
     }
 
     .carouselinner {
@@ -192,7 +192,8 @@ p {
     }
 
     .carousel-item {
-        width: 50%;
+        width: 100%;
+       padding: 150px 0;
     }
 
     :hover {
@@ -250,12 +251,16 @@ img {
     height: fit-content;
 }
 
-#rightContact {
+.contactstuff {
+    color: darkgrey;
+}
+
+/*#rightContact {
     float: right;
     padding-right: 40px;
     align-items: center;
     padding-bottom: 10px;
-}
+}*/
 
 /*#contactButton {
     border: 3px solid black;
