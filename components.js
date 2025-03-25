@@ -10,12 +10,19 @@ const header = `<header>
         </nav>
     </header>
     `
+const upButton = `<upButton>
+    <button>
+        <p>Up!</p>
+    </button>
+</upButton>
+`
+
 
 class headerClass extends HTMLElement {
     constructor () {
         super();
-        this.innerHTML=header;
+        this.innerHTML = header;
 
     }
 }
-customElements.define("header-class",headerClass);
+customElements.define( "header-class", headerClass );

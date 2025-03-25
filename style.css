@@ -43,9 +43,8 @@ header {
 
 h1 {
     font-size: 12em;
-    font-weight: 650;
+    font-weight: 630;
     margin-left: -15px;
-
 }
 
 h2 {
@@ -68,7 +67,7 @@ h3 {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     padding-bottom: 5px;
 }
 
@@ -248,13 +247,21 @@ p {
     border-radius: 10px;
     width: 70%;
     height: fit-content;
-    padding: 20px 0px 20px 30px;
     align-content: center;
-    padding: auto;
+    padding-left: 40px;
+    margin: 5px;
+    margin-left: 0px;
 
     .imgex {
         padding: 5px 10px;
-        height: 100px;
+        height: 5em;
+    }
+
+    p, img {
+        float: left;
+    }
+    p{
+        width: 100%;
     }
 }
 
@@ -279,7 +286,7 @@ fotos:hover {
 }
 
 .wholeText {
-    margin-bottom: 130px;
+    margin-bottom: 110px;
 }
 
 
