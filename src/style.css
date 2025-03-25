@@ -190,7 +190,7 @@ p {
     #carouselExampleControls {
         border: 3px solid rgb(0, 0, 0);
         border-radius: 10px;
-        width: 80%;
+        width: 90%;
         height: 60vh;
         align-content: center;
 
@@ -229,12 +229,16 @@ p {
         border-radius: 10px;
         display: inline-block;
         height: 100%;
-        width: 48%;
+        width: 43%;
         margin: auto;
     }
 
     #firstcar {
         margin-right: 3%;
+    }
+
+    .carousel-control-prev {
+        margin-left: -10%;
     }
 
 }
