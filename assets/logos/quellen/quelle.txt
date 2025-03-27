@@ -11,3 +11,6 @@ https://logos-world.net/blender-logo/
 https://pnghq.com/category/after-effects-logo-png/
 https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Flogospng.org%2Fdownload%2Fjavascript%2Flogo-javascript-icon-512.png&sp=1742771514Tea22411c740d15cab2fdf281f734772bc3a1073f2b257f7dbaa575e31d77fde0
 https://stock.adobe.com/de/search/free?k=handy&search_type=usertyped&asset_id=559053659
+
+
+handymockup https://stock.adobe.com/de/search/free?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=0&filters%5Bcontent_type%3Atemplate%5D=0&filters%5Bcontent_type%3A3d%5D=0&filters%5Bcontent_type%3Aaudio%5D=0&filters%5Binclude_stock_enterprise%5D=0&filters%5Bis_editorial%5D=0&filters%5Bfree_collection%5D=1&filters%5Bcontent_type%3Aimage%5D=1&filters%5Btransparent%5D=only&k=handy+mockup&order=relevance&search_type=filter-select&get_facets=1&asset_id=554035267

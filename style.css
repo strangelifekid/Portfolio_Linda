@@ -258,10 +258,12 @@ p {
         height: 5em;
     }
 
-    p, img {
+    p,
+    img {
         float: left;
     }
-    p{
+
+    p {
         width: 100%;
     }
 }
@@ -296,7 +298,7 @@ fotos:hover {
 
 .conceptText {
     width: 30%;
-    margin-top: 4vh;
+    margin-top: 3vh;
 }
 
 
@@ -313,22 +315,25 @@ fotos:hover {
 .contactinfos {
     padding-left: -5px;
 }
+
 .allsketches {
     display: flex;
     width: 80%;
 }
+
 .sketch {
-    background-color: rgb(97, 97, 97);
+    background-color: rgb(97,97,97);
     height: 40vh;
     width: 40%;
     margin-right: 2.7vh;
 
-   
+
 }
- #breiterSketch {
-     width: 60%;
-     margin-right: 0px;
- }
+
+#breiterSketch {
+    width: 60%;
+    margin-right: 0px;
+}
 
 .appScreens {
     width: 80%;
@@ -342,6 +347,7 @@ fotos:hover {
     margin-right: 2.7vh;
     border-radius: 1vh;
 }
+
 #lastone {
     margin-right: 0;
 }
@@ -350,8 +356,9 @@ fotos:hover {
     height: 40vh;
     width: 80%;
     background-color: rgb(97, 97, 97);
- 
+
 }
+
 .concept {
     display: flex;
     width: 80%;
@@ -362,11 +369,15 @@ fotos:hover {
     height: 40vh;
     background-color: rgb(97, 97, 97);
     margin-left: 15vh;
-    margin-top: 4vh;
+    margin-top: 3vh;
 }
 
 
-
+.flex {
+    display: flex;
+    width: 80%;
+ 
+}
 /*#rightContact {
     float: right;
     padding-right: 40px;
