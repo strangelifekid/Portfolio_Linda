@@ -5,7 +5,7 @@
 }
 
 body {
-    --color: linear-gradient(90deg, #b7de99 0%, #d1a355 100%);
+    --color: linear-gradient(90deg, #d5ffb6 0%, #ffc868 100%);
 }
 
 :root {
@@ -27,7 +27,7 @@ body {
 
 header {
     position: fixed;
-    background: linear-gradient(90deg, #b7de99 0%, #d1a355 100%);
+    background: var(--color);
     margin: 0;
     width: 90%;
     margin-left: 10%;
