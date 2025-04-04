@@ -216,6 +216,7 @@ p {
             transition: 0.3s;
         }
 
+        padding: 10px;
         border: 3px solid rgb(216, 243, 167);
         transition: 0.3s;
     }
@@ -227,20 +228,21 @@ p {
     }
 
     .littlecar {
-        padding: 10px;
+        padding: 0px;
         border-radius: 10px;
         display: inline-block;
         height: 100%;
         width: 43%;
         margin: auto;
+
     }
 
     #firstcar {
-        margin-right: 3%;
+        margin-left: 0%;
     }
 
     .carousel-control-prev {
-        margin-left: -10%;
+        margin-left: -11%;
     }
 
 }
