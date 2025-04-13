@@ -248,15 +248,13 @@ p {
 }
 
 .experience {
-    border: 3px solid white;
     border-radius: 10px;
-    width: 70%;
+    width: 80%;
     height: fit-content;
     align-content: center;
     margin: 5px;
     margin-left: 0px;
-    padding: 10px;
-    padding-left: 30px;
+    padding-top: 15px;
 
     .imgex {
         padding: 5px 10px;
@@ -382,6 +380,15 @@ fotos:hover {
     display: flex;
     width: 80%;
 
+}
+
+img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    opacity: 100%;
+
+    border-radius: 7px;
 }
 
 
