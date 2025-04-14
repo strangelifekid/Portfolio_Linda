@@ -1,0 +1,30 @@
+@media screen and (min-width:940px) {
+    p {
+        font-size: 1.5em;
+    }
+
+    h1 {
+        font-size: 10em;
+    }
+
+    h3 {
+        font-size: 4em;
+    }
+
+    .unterüberschrift1{
+        font-size: 4em;
+    }
+}
+
+@media screen and (max-width:700px) { /*wenn zu klein, dann*/
+    header {
+        li {
+            visibility: hidden;
+        }
+    }
+
+    a{
+        width: 100%;
+    }
+
+}

@@ -23,8 +23,23 @@ body {
 }
 
 .unterüberschrift1 {
-    margin-bottom: 220px;
-    margin-top: 0;
+    margin-bottom: 50vh;
+    font-size: 7.5vw;
+}
+
+.header {
+    color: var(--color);
+    display: flex;
+
+}
+
+.circle {
+    height: 65px;
+    width: 65px;
+    border-radius: 100%;
+    background-color: rgb(233, 233, 233);
+    position: fixed;
+    margin-left: 10%;
 }
 
 header {
@@ -33,26 +48,55 @@ header {
     margin: 0;
     width: 90%;
     margin-left: 10%;
-    height: 6.5vh;
+    height: 65px;
     border-bottom-left-radius: 50px;
     padding-left: 20px;
-    padding-top: 15px;
+    padding-top: 12px;
     display: block;
-    margin-bottom: 460px;
     z-index: 2;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        align-items: center;
+
+    }
+
+    li {
+        margin-left: 1vh;
+        font-size: 1.5em;
+        font-weight: 600;
+        float: left;
+        /* display: inline-block; */
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        padding: 1vw;
+    }
+
+    a:hover {
+        font-size: 1em;
+        font-weight: 602;
+        font-style: italic;
+        transition: 0.3s;
+        text-decoration: none;
+        color: black;
+    }
 
 }
 
 h1 {
-    font-size: 12em;
+    font-size: 17vw;
     font-weight: 630;
-    margin-left: -15px;
+    margin-left: -0.5vw;
 }
 
 h2 {
     font-size: 8em;
     color: white;
-    margin-left: -10px;
+    margin-left: 0;
 }
 
 h1,
@@ -62,21 +106,26 @@ h2 {
 }
 
 h3 {
-    font-size: 3.5em;
+    font-size: 9vw;
     width: 100%;
     font-weight: 600;
     background: var(--color);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 25px;
+    margin-bottom: 2%;
     padding-bottom: 5px;
 }
 
 h4 {
     color: white;
     font-size: 2.3em;
+}
 
+p {
+    padding-bottom: 10px;
+    width: 80%;
+    font-size: 4vw;
 }
 
 section {
@@ -90,37 +139,9 @@ section {
     align-items: end;
 }*/
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    align-items: center;
-
-}
-
-li {
-    margin-left: 20px;
-    font-size: 1.5em;
-    font-weight: 600;
-    float: left;
-    /* display: inline-block; */
-}
-
-a:hover {
-    font-size: 1em;
-    font-weight: 602;
-    font-style: italic;
-    transition: 0.3s;
-    text-decoration: none;
-    color: black;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-    padding: 10px;
 
 
-}
+
 
 body {
     background-color: black;
@@ -148,11 +169,7 @@ p {
 }
 
 
-p {
-    padding-bottom: 10px;
-    width: 80%;
-    font-size: 1.5em;
-}
+
 
 
 
@@ -177,31 +194,23 @@ p {
     .projectLinks {
         display: inline;
         padding: 0px;
+        border-radius: 10px;
+        align-content: center;
     }
 
     img {
-        height: 800px;
         width: 100%;
         aspect-ratio: 4/3;
         object-fit: cover;
         opacity: 100%;
-
-        border-radius: 7px;
     }
 
     #carouselExampleControls {
-        border: 3px solid rgb(0, 0, 0);
-        border-radius: 10px;
-        width: 90%;
         height: 60vh;
-        align-content: center;
-
+        width: 90%;
     }
 
-    .carousel-inner {
-        height: 100%;
-        width: 100%;
-    }
+
 
     .carousel-item {
         width: 100%;
@@ -234,6 +243,7 @@ p {
         height: 100%;
         width: 43%;
         margin: auto;
+        margin-right: 2vw;
 
     }
 
@@ -241,8 +251,10 @@ p {
         margin-left: 0%;
     }
 
-    .carousel-control-prev {
+    .carousel-control-prev,
+    .carousel-control-next {
         margin-left: -11%;
+        height: 80%;
     }
 
 }
@@ -268,6 +280,7 @@ p {
 
     p {
         width: 100%;
+        padding: 0;
     }
 }
 
@@ -292,18 +305,8 @@ fotos:hover {
 }
 
 .wholeText {
-    margin-bottom: 110px;
+    margin-bottom: 10vh;
 }
-
-.otherText {
-    margin-bottom: 45px;
-}
-
-.conceptText {
-    width: 30%;
-    margin-top: 3vh;
-}
-
 
 .rahmen {
     height: fit-content;
@@ -311,7 +314,7 @@ fotos:hover {
 
 .contactinhalt {
     font-style: italic;
-    color: darkgrey;
+    color: rgb(135, 135, 135);
     padding-left: 0px;
 }
 
@@ -325,7 +328,7 @@ fotos:hover {
 }
 
 .sketch {
-    background-color: rgb(97, 97, 97);
+    background-color: rgb(26, 26, 26);
     height: 40vh;
     width: 40%;
     margin-right: 2.7vh;
@@ -367,10 +370,20 @@ fotos:hover {
     width: 80%;
 }
 
+.concepttextall {
+    width: 40%;
+    padding-top: 1%;
+}
+
+.text {
+    padding-bottom: 2%;
+}
+
+
 .conceptpic {
     width: 80%;
     height: 40vh;
-    background-color: rgb(97, 97, 97);
+    background-color: rgb(0, 0, 0);
     margin-left: 15vh;
     margin-top: 3vh;
 }
@@ -386,6 +399,7 @@ img {
     width: 100%;
     aspect-ratio: 4/3;
     object-fit: cover;
+    height: 100%;
     opacity: 100%;
 
     border-radius: 7px;
