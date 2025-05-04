@@ -94,13 +94,12 @@ h1 {
 h2 {
     font-size: 12vw;
     color: white;
-    margin-left: 0;
 }
 
 h1,
 h2 {
     width: fit-content;
-    margin-top: 200px;
+    margin-top: 170px;
 }
 
 h3 {
@@ -451,7 +450,8 @@ button {
 }
 
  .druckerpics {
-     height: 40vh;
+     height: 59.5vh;
+
  }
 
 
