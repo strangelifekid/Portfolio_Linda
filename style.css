@@ -148,7 +148,7 @@ img {
     height: 40vh;
     object-fit: cover;
 
-   
+
 }
 
 h1,
@@ -275,11 +275,21 @@ img {
 }
 
 
+.fotoContainer {
+    width: 80%;
+    height: 70vh;
+    margin-bottom: 10vh;
+
+    img {
+        border-radius: 0px;
+    }
+}
 
 .fotos {
-    max-width: 49%;
-    max-height: 400px;
-    margin: 10px;
+    width: 47%;
+    margin: 0.3vh;
+    height: 50%;
+
 }
 
 fotos:hover {
@@ -288,14 +298,10 @@ fotos:hover {
 
 }
 
-.fotoContainer {
-    height: fit-content;
-    padding-bottom: 30vh;
-    margin-left: -10px;
-}
+
 
 .wholeText {
-    margin-bottom: 10vh;
+    margin-bottom: 6vh;
 }
 
 .rahmen {
@@ -341,8 +347,8 @@ fotos:hover {
 }
 
 #iconsmischung {
-    height: 35vw;
-    width: 37vw;
+    height: 33vw;
+    width: 35vw;
     aspect-ratio: 1/1;
     margin-left: 10vw;
 }
@@ -449,12 +455,24 @@ button {
     font-size: 5em;
 }
 
- .druckerpics {
-     height: 59.5vh;
+.druckerpics {
+    height: 59.5vh;
 
- }
+}
 
+.fifty {
+    width: 50%;
+}
 
+.flexx {
+    display: flex;
+
+    div {
+        height: 100%;
+        background-color: green;
+        margin-right: 1vw;
+    }
+}
 
 /*#rightContact {
     float: right;
