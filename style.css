@@ -6,6 +6,7 @@
 
 body {
     --color: linear-gradient(90deg, #d5ffb6 0%, #ffc868 100%);
+    --lightgreen: #d5ffb6;
 }
 
 :root {
@@ -177,16 +178,7 @@ p {
 #projects {
 
     .projectLinks {
-        display: inline;
         border-radius: 10px;
-        align-content: center;
-    }
-
-    .projectLinks>a {
-        color: rgb(0, 0, 0);
-        width: fit-content;
-        font-size: 2em;
-
     }
 
     img {
@@ -199,22 +191,21 @@ p {
         height: 60vh;
     }
 
-    .carousel-item {
-        width: 100%;
-        height: 100%;
-        align-items: center;
-        align-content: center;
+    .carousel-inner {
+        background: linear-gradient(90deg,green 0% #000000 100%);
     }
 
     .littlecar {
-        padding: 0px;
         border-radius: 10px;
         display: inline-block;
-        height: 100%;
-        width: 47%;
-        margin: auto;
-        margin-right: 2vw;
+        height: 45vh;
+        aspect-ratio: 4/3.7;
+        margin: 0.5vw;
         border: 3px solid transparent;
+    }
+
+    #firstcar {
+        margin-right: 1.5vw;
     }
 
     .littlecar:hover {
@@ -226,6 +217,14 @@ p {
         border: 3px solid rgb(216, 243, 167);
         transition: 0.3s;
     }
+
+    .greyblock {
+        background-color: grey;
+        width: 10%;
+        overflow-x: hidden;
+        height: 50vh;
+    }
+
 
     .Üprojects {
         color: rgb(255, 255, 255);
@@ -240,6 +239,12 @@ p {
     }
 
 
+}
+
+.flexprojects {
+    display: flex;
+    overflow-x: scroll;
+    padding-bottom: 2vh;
 }
 
 .experience {
@@ -327,6 +332,7 @@ fotos:hover {
     .sketch {
         background-color: rgb(26, 26, 26);
         width: 40%;
+        height: 40vh;
         margin-right: 2.7vh;
     }
 
@@ -346,11 +352,25 @@ fotos:hover {
     }
 }
 
-#iconsmischung {
+.roundbeginnpic {
     height: 33vw;
     width: 35vw;
     aspect-ratio: 1/1;
     margin-left: 10vw;
+}
+
+#watchoutpic {
+    height: 23vw;
+    width: 50vw;
+    margin-left: 3vw;
+    margin-top: 3vw;
+}
+
+#picofme {
+    height: 29vw;
+    width: 31vw;
+    margin-top: 2vh;
+    margin-left: 8vw;
 }
 
 
@@ -359,16 +379,19 @@ fotos:hover {
     object-fit: fill;
 }
 
-.appScreens {
-    display: flex;
-}
+
 
 .app {
-    background-color: rgb(97, 97, 97);
-    height: 60vh;
-    width: 30%;
+    background-color: rgb(0, 0, 0);
+    height: 68vh;
+    width: 33vh;
     margin-right: 2.7vh;
     border-radius: 1vh;
+
+    p {
+        font-weight: 550;
+        font-size: 1.8em;
+    }
 }
 
 #lastone {
@@ -377,7 +400,11 @@ fotos:hover {
 
 .watchhh {
     height: 20vw;
-    margin-left: -4vw;
+    border: 2px solid var(--lightgreen);
+    border-radius: 10px;
+    margin-top: 2vh;
+    padding: 1vh;
+    margin-left: 0.1vw;
 }
 
 .flex {
@@ -439,12 +466,13 @@ fotos:hover {
 
 
 button {
-    border-radius: 10px;
-    border: 3px solid #d5ffb6;
-    width: 10vw;
-    height: 6vh;
-    margin-top: 1vh;
-    margin-right: 1vw;
+    border-radius: 22px;
+    border: 3.5px solid #ffffff;
+    width: 15vw;
+    height: 7vh;
+    margin-top: 2vh;
+    margin: 0.5vw;
+    margin-right: 30px;
     background-color: black;
     color: white;
     font-size: 1.4em;
@@ -456,7 +484,7 @@ button {
 }
 
 .druckerpics {
-    height: 59.5vh;
+    height: 59vh;
 
 }
 
@@ -466,13 +494,25 @@ button {
 
 .flexx {
     display: flex;
+    margin-top: 2vh;
 
     div {
         height: 100%;
-        background-color: green;
+        background-color: rgb(0, 0, 0);
         margin-right: 1vw;
+        z-index: 2;
     }
+
+    img {
+        z-index: 1;
+    }
+
+    div:hover {
+        border: 2px solid white;
+    }
+
 }
+
 
 /*#rightContact {
     float: right;
