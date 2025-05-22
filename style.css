@@ -29,7 +29,7 @@ body {
     display: flex;
 }
 
-#top{
+#top {
     width: 100%;
 }
 
@@ -187,10 +187,10 @@ h3,
 h4,
 p,
 a {
-    font-family: itc-avant-garde-gothic-pro, 'Calibri','Trebuchet MS', sans-serif;
+    font-family: itc-avant-garde-gothic-pro, 'Calibri', 'Trebuchet MS', sans-serif;
 }
 
-p{
+p {
     font-family: Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -432,7 +432,7 @@ fotos:hover {
 
 .watchhh {
     height: 20vw;
-    border: 2px solid var(--lightgreen);
+    border: 3px solid var(--lightgreen);
     border-radius: 10px;
     margin-top: 2vh;
     padding: 1vh;
@@ -521,6 +521,9 @@ button {
 
 #styleguide {
     height: 60vh;
+    border: 3px solid var(--lightgreen);
+    border-radius: 10px;
+    padding: 1vw;
 }
 
 .fifty {
