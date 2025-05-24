@@ -7,6 +7,7 @@
 body {
     --color: linear-gradient(90deg, #d5ffb6 0%, #ffc868 100%);
     --lightgreen: #d5ffb6;
+    --fastweiß: rgb(229, 237, 230);
 }
 
 :root {
@@ -103,7 +104,7 @@ h1 {
     /*font-family: "snug-sharp-variable", sans-serif;*/
     font-family: "snug-sharp-variable", sans-serif;
     font-variation-settings: "wght" 370, "wdth" 400, "XHGT" 1;
-    font-size: 20vw;
+    font-size: 19vw;
     margin-top: 8vh;
     margin-left: -0.6%;
     width: 100%;
@@ -114,9 +115,9 @@ h1 {
 h2 {
     font-family: "snug-sharp-variable", sans-serif;
     font-variation-settings: "wght" 370, "wdth" 400, "XHGT" 100;
-    font-size: 14vw;
-    color: white;
-    margin-top: 20vh;
+    font-size: 15vw;
+    color: var(--fastweiß);
+    margin-top: 15vh;
 }
 
 
@@ -136,7 +137,7 @@ h3 {
 
 #unterüberschrift1 {
     margin-top: -3vh;
-    background: white;
+    background: var(--fastweiß);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -152,6 +153,7 @@ h4 {
     -webkit-text-fill-color: transparent;*/
     font-weight: 400;
     color: white;
+    font-size: 3.5vh;
 }
 
 p {
@@ -194,10 +196,9 @@ p {
     font-family: Calibri, 'Trebuchet MS', sans-serif;
 }
 
-h1,
 h2,
 p {
-    color: white;
+    color: rgb(234, 243, 234);
 }
 
 /*.projectLinks div {
@@ -353,12 +354,13 @@ fotos:hover {
 }
 
 .contactinfos {
-    padding-left: -5px;
+    padding-left: 5px;
 }
 
 .allsketches {
     display: flex;
-    height: 50vh;
+    width: 100%;
+    aspect-ratio: 125/46;
     object-fit: contain;
 
 
@@ -366,7 +368,7 @@ fotos:hover {
         background-color: rgb(26, 26, 26);
         width: 40%;
         height: 40vh;
-        margin-right: 2.7vh;
+        margin-right: 1%;
     }
 
     #breiterSketch {
@@ -376,7 +378,7 @@ fotos:hover {
 
     #iconsketch1 {
         width: 33%;
-        margin-right: 2.7vh;
+        margin-right: 1%;
     }
 
     #iconsketch2 {
@@ -459,6 +461,7 @@ fotos:hover {
 
 .bigintro {
     height: 75vh;
+    margin-top: -1vh;
 
     .intropic {
         object-fit: contain;
@@ -477,7 +480,7 @@ fotos:hover {
     border-radius: 20px;
 
     .conceptpic {
-        height: 53vh;
+        height: 30vw;
         aspect-ratio: 1/1;
         background-color: rgb(0, 0, 0);
     }

@@ -1,5 +1,5 @@
 @media screen and (min-width:940px) {
- 
+
 
     .unterüberschrift1 {
         font-size: 4em;
@@ -16,6 +16,11 @@
         }
     }
 
+    :root {
+        scroll-behavior: none;
+        scroll-snap-type: none;
+    }
+
     a {
         width: 100%;
     }
@@ -24,7 +29,7 @@
         display: block;
     }
 
-    .fifty{
+    .fifty {
         width: 100%;
     }
 
@@ -34,19 +39,27 @@
         margin-left: 0;
     }
 
-    section{
-        padding-top: 17vh;
+    section {
+        padding-top: 16vh;
+        height: 60vh;
+        margin-bottom: 10vh;
     }
 
-    .roundbeginnpic{
+    .roundbeginnpic {
         visibility: hidden;
     }
+
+    .umrandung {
+        width: 100%;
+
+    }
+
 }
 
-@media  screen and (max-width: 1400px) {
-        .concepttextall {
-                width: 100%;
-            }
+@media screen and (max-width: 1400px) {
+    .concepttextall {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width:640px) {
@@ -57,5 +70,6 @@
     h3 {
         font-size: 4em;
     }
+
 
 }
