@@ -5,6 +5,10 @@
         font-size: 4em;
     }
 
+    h2{
+        font-size: 14vw;
+    }
+
 }
 
 @media screen and (max-width:700px) {
@@ -42,7 +46,7 @@
     section {
         padding-top: 16vh;
         height: 60vh;
-        margin-bottom: 10vh;
+        margin-bottom: 20vh;
     }
 
     .roundbeginnpic {
@@ -51,7 +55,18 @@
 
     .umrandung {
         width: 100%;
+        padding: 4%;
+        .conceptpic{
+            height:65vw;
+        }
+    }
 
+    .iconsketches {
+        margin-bottom: 0vh;
+    }
+
+    .app{
+        margin-bottom: 10vh;
     }
 
 }
@@ -70,6 +85,7 @@
     h3 {
         font-size: 4em;
     }
+
 
 
 }

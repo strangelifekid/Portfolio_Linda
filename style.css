@@ -24,7 +24,6 @@ body {
 }
 
 
-
 .header {
     color: var(--color);
     display: flex;
@@ -78,14 +77,18 @@ header {
     }
 
     a:hover {
-        font-size: 1em;
-        font-weight: 600;
         font-style: italic;
         transition: 0.3s;
         text-decoration: none;
         color: black;
     }
 
+}
+
+h1,
+h2 {
+    font-family: "snug-sharp-variable", sans-serif;
+    font-variation-settings: "wght" 370, "wdth" 400, "XHGT" 10;
 }
 
 h1 {
@@ -98,13 +101,10 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     /*font-family: "sofachrome", sans-serif;*/
-    /*font-family: "manofa", sans-serif;*/
     /*font-family: "itc-avant-garde-gothic-pro", sans-serif;*/
     /*font-size: 17em;*/
     /*font-family: "snug-sharp-variable", sans-serif;*/
-    font-family: "snug-sharp-variable", sans-serif;
-    font-variation-settings: "wght" 370, "wdth" 400, "XHGT" 1;
-    font-size: 19vw;
+    font-size: 17vw;
     margin-top: 8vh;
     margin-left: -0.6%;
     width: 100%;
@@ -113,9 +113,7 @@ h1 {
 
 
 h2 {
-    font-family: "snug-sharp-variable", sans-serif;
-    font-variation-settings: "wght" 370, "wdth" 400, "XHGT" 100;
-    font-size: 15vw;
+    font-size: 18vw;
     color: var(--fastweiß);
     margin-top: 15vh;
 }
@@ -131,7 +129,7 @@ h3 {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 2%;
+    margin-bottom: 3vh;
     padding-bottom: 5px;
 }
 
@@ -153,12 +151,12 @@ h4 {
     -webkit-text-fill-color: transparent;*/
     font-weight: 400;
     color: white;
-    font-size: 3.5vh;
+    font-size: 3vh;
 }
 
 p {
-    font-size: 4.5vw;
-    padding-bottom: 2vh;
+    font-size: 4vw;
+    margin-bottom: 2vh;
 }
 
 section {
@@ -177,12 +175,12 @@ body {
     background-color: black;
 }
 
-img {
+/*img {
     height: 40vh;
     object-fit: cover;
 
 
-}
+}*/
 
 
 h3,
@@ -194,6 +192,7 @@ a {
 
 p {
     font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3vh;
 }
 
 h2,
@@ -351,30 +350,21 @@ fotos:hover {
     font-style: italic;
     color: rgb(135, 135, 135);
     padding-left: 0px;
+
 }
 
 .contactinfos {
     padding-left: 5px;
 }
 
-.allsketches {
+
+
+.iconsketches {
     display: flex;
     width: 100%;
     aspect-ratio: 125/46;
     object-fit: contain;
 
-
-    .sketch {
-        background-color: rgb(26, 26, 26);
-        width: 40%;
-        height: 40vh;
-        margin-right: 1%;
-    }
-
-    #breiterSketch {
-        width: 60%;
-        margin-right: 0px;
-    }
 
     #iconsketch1 {
         width: 33%;
@@ -387,17 +377,39 @@ fotos:hover {
     }
 }
 
+.wosketches {
+    display: flex;
+    width: 100%;
+    aspect-ratio: 125/40;
+    object-fit: contain;
+
+    #wosketch1 {
+        width: 40%;
+        margin-right: 1%;
+    }
+
+    #wosketch2 {
+        width: 60%;
+    }
+}
+
 .roundbeginnpic {
     height: 33vw;
     width: 35vw;
     aspect-ratio: 1/1;
     margin-left: 10vw;
+    margin-top: -2vh;
 }
 
 #watchoutpic {
-    height: 23vw;
-    width: 52vw;
-    margin-left: 3vw;
+    height: 33vw;
+    width: 33vw;
+}
+
+#appscreens {
+    width: 35vw;
+    height: 30.1vw;
+    margin-top: 1vh;
 }
 
 #picofme {
@@ -417,14 +429,18 @@ fotos:hover {
 
 .app {
     background-color: rgb(0, 0, 0);
-    height: 68vh;
-    width: 33vh;
+    height: 65vh;
+    aspect-ratio: 31/68;
     margin-right: 2.7vh;
     border-radius: 1vh;
 
     p {
         font-weight: 550;
         font-size: 1.8em;
+    }
+
+    img {
+        border-radius: 1.5vh;
     }
 }
 
@@ -480,7 +496,7 @@ fotos:hover {
     border-radius: 20px;
 
     .conceptpic {
-        height: 30vw;
+        height: 29vw;
         aspect-ratio: 1/1;
         background-color: rgb(0, 0, 0);
     }
@@ -505,7 +521,7 @@ button {
     border: 3px solid var(--lightgreen);
     width: 10vw;
     height: 6vh;
-    margin-top: 0.1vh;
+    margin-top: 4vh;
 
     margin-right: 30px;
     background-color: black;
@@ -519,15 +535,27 @@ button {
 }
 
 .druckerpics {
-    height: 59vh;
+    width: 50vw;
+    width: 100%;
+    object-fit: contain;
+    aspect-ratio: 6/3;
+
+}
+
+#testing {
+    aspect-ratio: 10/3;
+    margin-top: -12vh;
 }
 
 #styleguide {
-    height: 60vh;
+    aspect-ratio: 85/40;
     border: 3px solid var(--lightgreen);
     border-radius: 10px;
     padding: 1vw;
 }
+
+
+
 
 .fifty {
     width: 50%;

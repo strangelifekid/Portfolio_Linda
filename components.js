@@ -3,9 +3,9 @@ const header = `<header>
 <ul>
 <li><a href="./index.html#top">Home</a></li>
                 <div class="grow"></div>
-                <li><a href="./index.html#aboutMe">About me</a></li>
-                <li><a href="./index.html#projects">Projects</a></li>
-                <div id="contactButton" ><li id="rightContact" ><a href="./index.html#contact">Contact</a></li> </div>
+                <li><a href="./index.html#aboutMe">Über mich</a></li>
+                <li><a href="./index.html#projects">Projekte</a></li>
+                <div id="contactButton" ><li id="rightContact" ><a href="./index.html#contact">Kontakt</a></li> </div>
             </ul>
         </nav>
     </header>
