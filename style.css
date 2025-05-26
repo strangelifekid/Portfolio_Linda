@@ -190,7 +190,7 @@ a {
     font-family: itc-avant-garde-gothic-pro, 'Calibri', 'Trebuchet MS', sans-serif;
 }
 
-p {
+p,li {
     font-family: Calibri, 'Trebuchet MS', sans-serif;
     font-size: 3vh;
 }
@@ -336,6 +336,15 @@ fotos:hover {
 
 }
 
+.list {
+    list-style-type: disc;
+    color: white;
+    margin-left: 1.5vw;
+
+    li{
+        margin-bottom: 1vh;
+    }
+}
 
 
 .wholeText {
