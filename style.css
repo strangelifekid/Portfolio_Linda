@@ -115,11 +115,11 @@ h1 {
 #logo{
     position: absolute;
     z-index: 0;
-    width: 85vh;
-    height: 83vh;
+    width: 95vh;
+    height: 92vh;
     aspect-ratio: 52/50;
-    margin-top: -59.6vh;
-    margin-left: 37vw;
+    margin-top: -64.6vh;
+    margin-left: 28vw;
     opacity: 100%;
 }
 
