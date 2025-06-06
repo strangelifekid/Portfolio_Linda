@@ -8,6 +8,8 @@ body {
     --color: linear-gradient(90deg, #d5ffb6 0%, #ffc868 100%);
     --lightgreen: #d5ffb6;
     --fastweiß: rgb(229, 237, 230);
+    --blackgray: linear-gradient(90deg, black 0%, rgb(34, 34, 34) 100%);
+    --blackgrayreverse: linear-gradient(90deg, rgb(34,34,34) 0%, black 100%);
 }
 
 :root {
@@ -240,6 +242,7 @@ p {
     .projectLinks {
         border-radius: 10px;
         margin-left: -0.6%;
+     
     }
 
     img {
@@ -250,18 +253,20 @@ p {
 
     #carouselExampleControls {
         height: 60vh;
+        margin-top: 7vh;
     }
 
     .carousel-inner {
         background: linear-gradient(90deg, green 0% #000000 100%);
     }
 
+
     .littlecar {
         border-radius: 10px;
         display: inline-block;
-        height: 45vh;
+        height: 46vh;
         aspect-ratio: 4/3.7;
-        margin: 0.5vw;
+        margin-right: 1vw;
         border: 3px solid transparent;
     }
 
@@ -280,11 +285,27 @@ p {
     }
 
     .greyblock {
-        background-color: grey;
+        background-color: rgb(39, 39, 39);
         width: 10%;
         overflow-x: hidden;
-        height: 50vh;
+        height: 45.5vh;
+        margin-right: 1vw;
+        margin-top: 0.3vh;
     }
+
+    #one{
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        background: var(--blackgray);
+    }
+
+    #two{
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        background: var(--blackgrayreverse);
+    }
+
+
 
 
     .Üprojects {
@@ -295,8 +316,8 @@ p {
 
     .carousel-control-prev,
     .carousel-control-next {
-        margin-left: -12%;
-        height: 90%;
+        margin-left: -2%;
+        height: 78%;
     }
 
 
