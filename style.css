@@ -9,7 +9,7 @@ body {
     --lightgreen: #d5ffb6;
     --fastweiß: rgb(229, 237, 230);
     --blackgray: linear-gradient(90deg, black 0%, rgb(34, 34, 34) 100%);
-    --blackgrayreverse: linear-gradient(90deg, rgb(34,34,34) 0%, black 100%);
+    --blackgrayreverse: linear-gradient(90deg, rgb(34, 34, 34) 0%, black 100%);
 }
 
 :root {
@@ -242,7 +242,7 @@ p {
     .projectLinks {
         border-radius: 10px;
         margin-left: -0.6%;
-     
+
     }
 
     img {
@@ -293,13 +293,13 @@ p {
         margin-top: 0.2vh;
     }
 
-    #one{
+    #one {
         border-top-right-radius: 8px;
         border-bottom-right-radius: 8px;
         background: var(--blackgray);
     }
 
-    #two{
+    #two {
         border-top-left-radius: 8px;
         border-bottom-left-radius: 8px;
         background: var(--blackgrayreverse);
